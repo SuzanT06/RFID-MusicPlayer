@@ -10,7 +10,7 @@ CLIENT_SECRET="YOUR_CLIENT_SECRET"
 # Spotify Authentication
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
                                                 client_secret=CLIENT_SECRET,
-                                                redirect_uri="http://localhost:8080",
+                                                redirect_uri="http://127.0.0.1:8080",
                                                 scope="user-read-playback-state,user-modify-playback-state"))
 
 
