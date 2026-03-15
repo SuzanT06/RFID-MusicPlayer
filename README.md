@@ -1,6 +1,8 @@
 # 🎵 RFID-MusicPlayer
 **A physical jukebox interface using Raspberry Pi 3B and RFID technology.**
 
+
+
 This project bridges the gap between physical media and digital streaming. By using an **MFRC522 RFID Scanner**, you can trigger specific Spotify tracks, albums, or playlists just by tapping a card or key fob. It is optimized for the Raspberry Pi 3B running Legacy Bookworm OS.
 
 ## 🚀 Features
